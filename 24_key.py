@@ -25,7 +25,7 @@ if 'Ваша электронная почта' in demo_page.text:
     
     email = input('Введите электронную почту для получения тестового периода: ')
 
-    response = requests.post('https://hidemy.io/ru/demo/success/', data={
+    response = requests.post('https://hdmn.info/demo/success/', data={
         "demo_mail": f"{email}"
     }, headers=headers, proxies=proxies)
 
